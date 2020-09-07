@@ -11,16 +11,14 @@ class App extends Component {
     <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
     <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
         <Navigation>
-          <Link to="/resume">Resumo</Link>
-          <Link to="/aboutme">Sobre Mim</Link>
+          <Link to="/resume">Sobre mim</Link>
           <Link to="projects">Projetos</Link>
           <Link to="/contact">Contato</Link>
         </Navigation>
       </Header>
       <Drawer title="Menu">
         <Navigation>
-          <Link to="/resume">Resumo</Link>
-          <Link to="/aboutme">Sobre Mim</Link>
+          <Link to="/resume">Sobre mim</Link>
           <Link to="projects">Projetos</Link>
           <Link to="/contact">Contato</Link>
         </Navigation>
